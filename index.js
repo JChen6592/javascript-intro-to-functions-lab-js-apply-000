@@ -20,10 +20,10 @@ function sayHiToGrandma(string) {
   if greeting.toLowerCase() === string {
     console.log("I can't hear you!")
   }
-  else if greeting.toUpperCase() === string {
+  if greeting.toUpperCase() === string {
     console.log("YES INDEED!")
   }
-  else if greeting === string {
+  if greeting === string {
     console.log("I love you, too.")
   }
 }
