@@ -17,7 +17,7 @@ function logWhisper(string){
 function sayHiToGrandma(string) {
   var input = string 
   
-  if input === string {
+  input === string {
     console.log("I love you too!")
   }
 }
